@@ -1,0 +1,5 @@
+*** Test Case ***;${username};${password};${expected_message}
+Login Valid;demo;mode;Login succeeded
+Login Invalid by Username;demo2;mode;Login failed
+Login Invalid by Password;demo;mode2;Login failed
+Login Invalid by Username and Password;demo2;mode2;Login failed
